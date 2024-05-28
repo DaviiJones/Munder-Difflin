@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../componentCSS/compTitle.css"
 const CompanyTitle = () => {
     return (
       <h1 className="companyTitle">

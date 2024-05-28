@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../componentCSS/compDes.css"
 const CompanyDescription = () => {
     return (
       <p className="companyDescription">

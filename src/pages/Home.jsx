@@ -5,25 +5,24 @@ import CompanyImage from "../components/companyImage";
 import CompanyTitle from "../components/companyTitle";
 import ContactInfo from "../components/contactInfo";
 import NavBar from "../navBar/NavBar";
+import "./Home.css";
 
 const Home = () => {
-    return(
-    <div>
-        <header className="header">
-            <CompanyTitle />
-            <NavBar />
-        </header>
-        <body>
-            <CompanyDescription />
-            <CompanyImage />
-        </body>
-        <footer>
-            <ContactInfo />
-        </footer>
-
+  return (
+    <div className="wrapper">
+      <header className="main-content">
+        <CompanyTitle />
+        <NavBar />
+      </header>
+      <body>
+        <CompanyImage />
+        <CompanyDescription />
+      </body>
+      <footer className="footer">
+        <ContactInfo />
+      </footer>
     </div>
-    );
+  );
+};
 
-  };
-  
-  export default Home;
+export default Home;

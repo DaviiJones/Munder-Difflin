@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../componentCSS/contactInfo.css"
 const CompanyInformation = () => {
     return (
       <ul className="companyInfoList">
