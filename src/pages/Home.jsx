@@ -5,6 +5,7 @@ import CompanyImage from "../components/companyImage";
 import CompanyTitle from "../components/companyTitle";
 import ContactInfo from "../components/contactInfo";
 import NavBar from "../navBar/NavBar";
+
 import "./Home.css";
 
 const Home = () => {
@@ -26,3 +27,6 @@ const Home = () => {
 };
 
 export default Home;
+/*
+Design a mobile-responsive website for a fictional paper company called Munder Difflin. The site should include a header, a main content area, and a footer. The layout should adjust for different screen sizes using CSS positioning, display properties, and media queries.
+*/
